@@ -19,7 +19,7 @@ struct ContentView: View {
          VStack {
              Text("Weather please :)")
              
-             TextField("Enter a city", text: self.$weatherVM.cityName) {
+             TextField("Enter a city...", text: self.$weatherVM.cityName) {
                  self.weatherVM.search()
              }.font(.custom("Arial", size: 30))
                  .padding()
