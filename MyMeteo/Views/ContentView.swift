@@ -35,7 +35,7 @@ struct ContentView: View {
                          .font(Font.system(.title2, design: .monospaced).weight(.bold))
                      
                  case .error:
-                     Text("City unkown")
+                     Text("City unkown !")
                          .font(.custom("Arial", size: 30))
                          .foregroundColor(Color.black)
                          .offset(y: 100)
