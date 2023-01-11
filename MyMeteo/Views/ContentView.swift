@@ -17,7 +17,7 @@ struct ContentView: View {
     
     var body: some View {
          VStack {
-             Text("Weather please !")
+             Text("Weather please :)")
              
              TextField("Enter a city", text: self.$weatherVM.cityName) {
                  self.weatherVM.search()
